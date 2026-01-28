@@ -1,15 +1,12 @@
 import java.util.Scanner;
-
-public class menudeConversiones {
+public class ConversorUnidades {
     public static void main(String[] args) {
-
         int contadorCelsiusFahrenheit = 0;
         int contadorFahrenheitCelsius = 0;
         int contadorKmMillas = 0;
         int contadorMillasKm = 0;
         Scanner scanner = new Scanner(System.in);
         int opcion;
-
         do {
             System.out.println("\n--- Menú de Conversiones ---");
             System.out.println("1) °C a °F");
@@ -21,14 +18,14 @@ public class menudeConversiones {
 
             while (!scanner.hasNextInt()) {
                 System.out.println("Error: La opción debe ser un número entero.");
-                scanner.next(); // Limpiar entrada inválida
+                scanner.next();
                 System.out.print("Selecciona una opción válida (1-5): ");
             }
             opcion = scanner.nextInt();
 
             if (opcion < 1 || opcion > 5) {
                 System.out.println("Error: Opción no válida. Debe estar entre 1 y 5.");
-                continue; // Volver al inicio del menú
+                continue;
             }
             switch (opcion) {
                 case 1:
