@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/cotizadorEnvioconclase.iml" filepath="$PROJECT_DIR$/cotizadorEnvioconclase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ControlCalificaciones.iml" filepath="$PROJECT_DIR$/ControlCalificaciones.iml" />
     </modules>
   </component>
 </project>
